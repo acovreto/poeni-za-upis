@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Пресметка на поени за упис во средно</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>
+          Пресметка на поени на ученици за упис во прва година средно училиште
+        </h1>
+        <h3>Означи струка:</h3>
+        <form>
+          <div class="form-group">
+            <input type="radio" id="et" name="struka" value="electro" />
+            <label for="et">Електротехничка струка</label>
+          </div>
+          <div class="form-group">
+            <input type="radio" id="ms" name="struka" value="masinska" /><label
+              for="ms"
+              >Машинска струка</label
+            >
+          </div>
+          <div class="form-group">
+            <input type="radio" id="ss" name="struka" value="soobrakaj" /><label
+              for="ss"
+              >Сообреќајна струка</label
+            >
+          </div>
+          <div class="form-group">
+            <input type="radio" id="lu" name="struka" value="licni" /><label
+              for="lu"
+              >Лични услуги</label
+            >
+          </div>
+        </form>
+        <h3>Внесете ги оценките од 6-9 одделение:</h3>
+        <h3>Означите за поведение: 5-примерно, 3-добро, 0-незадоволително</h3>
+      </div>
+
+      <div class="svidetelstva">
+        <div class="class-num">
+          <div>VI</div>
+
+          <table></table>
+        </div>
+        <div class="class-num">
+          <div>VII</div>
+
+          <table></table>
+        </div>
+        <div class="class-num">
+          <div>VIII</div>
+
+          <table></table>
+        </div>
+        <div class="class-num">
+          <div>IX</div>
+
+          <table></table>
+        </div>
+      </div>
+      <div class="error"></div>
+      <br />
+      <div class="buttons">
+        <button class="submit">ПРЕСМЕТАЈ</button>
+        <button class="reset">РЕСЕТИРАЈ</button>
+      </div>
+      <br />
+      <div class="result">
+        <h1>ПОЕНИ:<span class="poeni"></span></h1>
+      </div>
+
+      <br />
+
+      <div class="result">
+        <h3>
+          На оваа сума треба да се додадат и поени доколку сте освоиле 1-3 место
+          на натпревар:
+        </h3>
+        <h3>Прво до трето место на меѓународен натпревар додадете 5 поени,</h3>
+        <h3>Прво место на државен натпревар 3 поени,</h3>
+        <h3>Второ место на државен натпревар 2 поени,</h3>
+        <h3>Трето место на државен натпревар 1 поени,</h3>
+        <h3>Можете да додадете само една од овие опции.</h3>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
